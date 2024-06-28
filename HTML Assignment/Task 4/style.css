@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.registration-form {
+  display: flex;
+  width: 350px;
+  height: 500px;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid teal;
+}
+
+.details {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+textarea {
+  resize: none;
+}

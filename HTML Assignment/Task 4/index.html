@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="registration-form">
+      <div class="details">
+        <div class="name">
+          <label for="name">Name:</label>
+          <input type="text" placeholder="Enter your name" name="name" />
+        </div>
+        <div class="email">
+          <label for="email">Email:</label>
+          <input type="email" placeholder="Enter your email" name="email" />
+        </div>
+        <div class="gender">
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" value="male" />Male
+          <input type="radio" name="gender" value="female" />Female
+          <input type="radio" name="gender" value="other" />Other
+        </div>
+        <div class="country">
+          <label for="country">Country:</label>
+          <select name="country">
+            <option value="">Choose your Country</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+          </select>
+        </div>
+        <div class="address">
+          <p>
+            <label for="address">Address:</label>
+          </p>
+          <textarea name="address" id="address" rows="5" cols="30"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
